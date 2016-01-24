@@ -32,7 +32,7 @@ module.exports = function(grunt) {
                     livereload: '<%= connect.options.livereload %>'
                 },
                 files: [
-                    '.jekyll/**/*.{html,yml,md,mkd,markdown}',
+                    'gh-pages/**/*.{html,yml,md,mkd,markdown}',
                     '.tmp/<%= app.baseurl %>/css/*.css',
                     '.tmp/<%= app.baseurl %>/js/*.js',
                     '<%= app.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
             livereload: {
                 options: {
                     open: {
-                        target: 'http://localhost:9000/<%= app.baseurl %>'
+                        target: 'http://localhost:9001/<%= app.baseurl %>'
                     },
                     base: [
                         '.jekyll',
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
             dist: {
                 options: {
                     open: {
-                        target: 'http://localhost:9000/<%= app.baseurl %>'
+                        target: 'http://localhost:9001/<%= app.baseurl %>'
                     },
                     base: [
                         '<%= app.dist %>',

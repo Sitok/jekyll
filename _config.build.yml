@@ -1,3 +1,4 @@
-source "http://rubygems.org"
- 
-gem 'jekyll'
+future: false
+show_drafts: false
+
+exclude: ['css', 'js', 'fonts']
