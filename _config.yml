@@ -9,6 +9,6 @@ permalink:        pretty
 source:           app
 destination:      gh-pages
 host:             0.0.0.0
-port:             9001
-url:              http://code-wachid.com
+port:             9000
+#url:              http://code-wachid.com
 encoding:         UTF-8

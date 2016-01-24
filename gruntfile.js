@@ -49,7 +49,7 @@ module.exports = function(grunt) {
             livereload: {
                 options: {
                     open: {
-                        target: 'http://localhost:9001/<%= app.baseurl %>'
+                        target: 'http://localhost:9000/<%= app.baseurl %>'
                     },
                     base: [
                         '.jekyll',
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
             dist: {
                 options: {
                     open: {
-                        target: 'http://localhost:9001/<%= app.baseurl %>'
+                        target: 'http://localhost:9000/<%= app.baseurl %>'
                     },
                     base: [
                         '<%= app.dist %>',
